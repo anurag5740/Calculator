@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="border1">
+        <div class="box">
+            <input type="text" id="box1" readonly>
+            <button id="b" onclick="number='';
+                    document.querySelector('#box1').value=number;
+                    ">C</button>
+            <button id="b" onclick="number=number+'1';
+            document.querySelector('#box1').value=number;
+            ">1</button>
+            <button id="b" onclick="number=number+'2'
+            document.querySelector('#box1').value=number; ";
+            >2</button>
+            <button id="b" onclick="number=number+'3' 
+            document.querySelector('#box1').value=number;
+            ">3</button>
+            <button id="b" onclick="number=number+'4'
+            document.querySelector('#box1').value=number;
+            ">4</button>
+            <button id="b" onclick="number=number+'5'
+            document.querySelector('#box1').value=number;
+            ">5</button>
+            <button id="b" onclick="number=number+'6'
+            document.querySelector('#box1').value=number;
+            ">6</button>
+            <button id="b" onclick="number=number+'7'
+            document.querySelector('#box1').value=number;
+            ">7</button>
+            <button id="b" onclick="number=number+'8'
+            document.querySelector('#box1').value=number;
+            ">8</button>
+            <button id="b" onclick="number=number+'9'
+            document.querySelector('#box1').value=number;
+            ">9</button>
+            <button id="b" onclick="number=number+'0'
+            document.querySelector('#box1').value=number;
+            ">0</button>
+            <button id="b" onclick="number=number+'.'
+            document.querySelector('#box1').value=number;
+            ">.</button>
+            <button id="b" onclick="number=number+'*'
+            document.querySelector('#box1').value=number;
+            ">*</button>
+            <button id="b" onclick="number=number+'+'
+            document.querySelector('#box1').value=number;
+            ">+</button>
+            <button id="b" onclick="number=number+'-'
+            document.querySelector('#box1').value=number;
+            ">-</button>
+            <button id="b" onclick="number=number+'/'
+            document.querySelector('#box1').value=number;
+            ">/</button>
+            <button id="b" onclick="number=eval(number)
+            document.querySelector('#box1').value=number;
+            ">=</button>
+
+
+
+        </div>
+    </div>
+    <script>
+        let number="";
+        document.querySelector("#box1").value=number;
+    </script>
+</body>
+</html>

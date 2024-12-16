@@ -1,0 +1,24 @@
+#border1{
+    border: 1px solid black;
+    margin: 2px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+.box{
+    margin: 2px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#box1{
+    border-radius: 5px;
+    height:20px;
+}
+#b{
+    margin-left: 5px;
+    height: 30px;
+    width: 50px;
+    margin:2px
+}
